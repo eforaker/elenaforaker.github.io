@@ -1,0 +1,53 @@
+@font-face {
+    font-family: BluuNext-Bolditalic;
+    src: url("fonts/BluuNext-Bolditalic.otf") format("opentype");
+}
+
+body {
+    background-image: url("images/gum.gif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #ff009d;
+    text-align: center;
+    font-size: 6em;
+    font-family: BluuNext-Bolditalic, sans-serif; 
+    margin:0px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+p, li{
+    color: #ff009d;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: sans-serif; 
+    margin:0 auto;
+    width:80vw;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #ff009d;
+    text-align: center;
+    font-size: 4em;
+    font-family: BluuNext-Bolditalic,sans-serif; 
+    margin:0px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #ff009d;
+    text-align: center;
+    font-size: 3em;
+    font-family: BluuNext-Bolditalic,sans-serif; 
+    margin:0px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
