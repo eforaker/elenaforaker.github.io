@@ -1,9 +1,12 @@
-
+@font-face {
+    font-family: GiddyupStd;
+    src: url("fonts/GiddyupStd.otf") format("opentype");
+}
 
 body {
     margin:0;
     padding: 0;
-    background-color: #ffa5e2;
+    background-color: #ff71d4;
 }
 
 .screens {
@@ -21,16 +24,26 @@ a {
 }
 
 a img{
-    width:100px;
+    width:5vw;
     padding-bottom: 0px;
     height: 100%;
     margin-bottom: 0px;
 }
 
 .title{
-    position: fixed;
-    z-index: 100;
-    font-size: 10em;
-    color:#ffa5e2;
-    left:50px;
+    font-family: GiddyupStd;
+    font-size: 4em;
+    color:black;
+    position: absolute;
+    left:20px;
+    bottom: 7px;
+}
+
+.date{
+    font-family: GiddyupStd;
+    font-size: 4em;
+    color:black;
+    position: absolute;
+    right:20px;
+    bottom: 10px;
 }
