@@ -1,20 +1,19 @@
 @font-face {
-    font-family: GiddyupStd;
-    src: url("fonts/GiddyupStd.otf") format("opentype");
+    font-family: SnellRoundhandLTStd-Scr;
+    src: url("fonts/SnellRoundhandLTStd-Scr.otf") format("opentype");
 }
 
 body {
     margin:0;
     padding: 0;
-    background-color: #ff71d4;
+    background-color: white;
+    display: inline-block;
 }
 
 .screens {
     width:100vw;
     display: flex;
     flex-wrap: wrap;
-    position:absolute;
-    padding: 0;
 }
 
 a {
@@ -24,26 +23,31 @@ a {
 }
 
 a img{
-    width:5vw;
+    width:120px;
     padding-bottom: 0px;
     height: 100%;
     margin-bottom: 0px;
 }
 
 .title{
-    font-family: GiddyupStd;
-    font-size: 4em;
-    color:black;
-    position: absolute;
-    left:20px;
-    bottom: 7px;
+    width:60vw;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: SnellRoundhandLTStd-Scr;
+    font-size: 2.5em;
+    color:#ff63dd;
+    position: fixed;
 }
 
-.date{
-    font-family: GiddyupStd;
-    font-size: 4em;
-    color:black;
+.sorting{
     position: absolute;
-    right:20px;
-    bottom: 10px;
+    font-family: sans-serif;
+    font-size: 1em;
+    color:#ff63dd;
+    margin: 0 auto;
+}
+
+.sorting a{
+    color:#ff63dd;
+        margin: 0 auto;
 }
