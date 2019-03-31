@@ -5,8 +5,6 @@
 
 * {
   margin:0;
-  display: inline-grid;
-  cursor: url(images/heart.png), auto;
 }
 
 body {
@@ -19,19 +17,16 @@ body {
 
 .screens {
     width:100vw;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
-
+    display: block;
+    margin-left:30px;
 }
 
 .screens img{
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     height: 100%;
-    width:8vw;
+    width:100px;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
 .title  {
@@ -64,14 +59,16 @@ body {
 }
 
 hr { 
-  border-width: 2px;
+  border-width: 1px;
   border-color: #ff63dd;
   border-style: solid;
   margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .lines hr{
-      border-width: 2px;
+  border-width: 1px;
   border-color: #ff63dd;
   border-style: solid;
   margin-bottom: 100px;
