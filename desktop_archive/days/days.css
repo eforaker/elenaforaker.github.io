@@ -1,7 +1,11 @@
+@font-face {
+    font-family: SnellRoundhandLTStd-Scr;
+    src: url("../fonts/SnellRoundhandLTStd-Scr.otf") format("opentype");
+}
+
 * {
 	margin:0;
 }
-
 
 #bg {
   position: fixed; 
@@ -12,28 +16,24 @@
 }
 
 .date {
-	font-family: sans-serif;
-	font-size: 5em;
-	color:white;
 	position: fixed;
-	left:50px;
-	top:50px;
+	left:30px;
+	top:30px;
+	color:#ff63dd;
+  font-size: 5.5em;
+  font-family: SnellRoundhandLTStd-Scr;
 }
 
-.previous {
-	font-family: sans-serif;
-	font-size: 5em;
-	color:white;
-	position: relative;
-	left:50px;
-
+.links a{
+	position: fixed;
+	right:30px;
+	top:30px;
+	color:#ff63dd;
+  font-family: sans-serif;
+  font-size: 1em;
+  text-decoration: none;
 }
 
-.next {
-	font-family: sans-serif;
-	font-size: 5em;
-	color:white;
-	position: relative;
-	left:50px;
-
+.links a:hover {
+	text-shadow: 0 0 2px #ff63dd;
 }

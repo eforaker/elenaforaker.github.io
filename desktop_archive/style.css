@@ -32,7 +32,10 @@ body {
 .screens img:hover{
   cursor:pointer;
   box-shadow: 0 0 15px #ff63dd;
+}
 
+.screens a{
+  text-decoration: none;
 }
 
 #description {
@@ -41,11 +44,14 @@ body {
     display: none;
     font-size: 5.5em;
     font-family: SnellRoundhandLTStd-Scr;
-    margin-right: 15px;
+    margin-right: 10px;
     margin-bottom: 10px;
+    width:97vw;
+    padding-right: 30px;
 }
 
 .sorting{
+  text-align: right;
     position: absolute;
     font-family: sans-serif;
     font-size: 1em;
@@ -59,6 +65,11 @@ body {
     color:#ff63dd;
     margin-bottom: 5px;
     display: block;
+    text-decoration: none;
+}
+
+.sorting a:hover{
+text-shadow: 0 0 2px #ff63dd;
 }
 
 .sorting p{
@@ -100,7 +111,7 @@ button {
 }
 
 button:hover{
-  color:white;
+  text-shadow: 0 0 6px #ff63dd;
   cursor: pointer;
 }
 
