@@ -24,7 +24,7 @@ body {
 .screens img{
     margin-bottom: 20px;
     height: 100%;
-    width:100px;
+    width:125px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -94,7 +94,7 @@ hr {
   border-width: 1px;
   border-color: #ff63dd;
   border-style: solid;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 button {
@@ -114,4 +114,28 @@ button:hover{
   text-shadow: 0 0 6px #ff63dd;
   cursor: pointer;
 }
+
+@media screen and (max-width: 380px) {
+
+button {
+  margin-top: 200px;
+  font-size: 2.5em;
+}
+
+#description {
+  font-size: 2.5em;
+  width: 300px;
+}
+
+.screens{
+  width: 350px;
+  text-align: center;
+  margin: 0px;
+}
+
+.screens img{
+  width:70px;
+}
+}
+
 
