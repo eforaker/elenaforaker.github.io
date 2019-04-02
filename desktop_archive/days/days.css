@@ -16,21 +16,22 @@
 }
 
 .date {
-	position: fixed;
-	left:30px;
-	top:30px;
+  top:50px;
+  left:20px;
+	position: absolute;
 	color:#ff63dd;
-  font-size: 5.5em;
+  font-size: 13em;
   font-family: SnellRoundhandLTStd-Scr;
+  line-height: .8;
 }
 
 .links a{
 	position: fixed;
-	right:30px;
-	top:30px;
+	right:50px;
+	top:50px;
 	color:#ff63dd;
   font-family: sans-serif;
-  font-size: 1em;
+  font-size: 3em;
   text-decoration: none;
 }
 
