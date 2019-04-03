@@ -24,18 +24,9 @@ body {
 .screens img{
     margin-bottom: 20px;
     height: 100%;
-    width:125px;
+    width:80vw;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.screens img:hover{
-  cursor:pointer;
-  box-shadow: 0 0 15px #ff63dd;
-}
-
-.screens a{
-  text-decoration: none;
 }
 
 #description {
@@ -88,13 +79,6 @@ hr {
   margin-bottom: 20px;
   margin-left: 30px;
   margin-right: 30px;
-}
-
-.lines hr{
-  border-width: 1px;
-  border-color: #ff63dd;
-  border-style: solid;
-  margin-bottom: 120px;
 }
 
 button {
