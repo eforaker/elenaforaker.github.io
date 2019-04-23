@@ -1,0 +1,13 @@
+body {
+  display: block;
+  background-color: white;
+}
+
+#gradient {
+  margin: 80px;
+  height: 700px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: black;
+  border-style: solid;
+}
