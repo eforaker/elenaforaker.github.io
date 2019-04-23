@@ -1,6 +1,6 @@
 @font-face {
-    font-family: ArialNarrowMTStd;
-    src: url("../fonts/ArialNarrowMTStd.otf") format("opentype");
+    font-family: Sneak-Regular;
+    src: url("../fonts/Sneak-Regular.otf") format("opentype");
 }
 
 * { 
@@ -32,22 +32,18 @@ body {
 }
 
 .text {
-  font-family: ArialNarrowMTStd;
+  font-family: Sneak-Regular;
   font-size: 3.75em;
   letter-spacing: .05em;
 }
 
-.back {
-  font-family: ArialNarrowMTStd;
-  font-size: 1em;
-}
-
 .back p{
-  color:#22ffef;
-  margin-top: 60px;
+	display: block;
+	font-family: Sneak-Regular;
+  color:#d3d4e3;
+  margin-top: 50px;
   margin-left: 80px;
-  position: absolute;
-  font-size: 4em;
+  font-size: 2.5em;
 }
 
 .back p:hover {
