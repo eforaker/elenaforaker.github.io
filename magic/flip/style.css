@@ -1,6 +1,6 @@
 @font-face {
     font-family: Sneak-Regular;
-    src: url("../fonts/Sneak-Regular.otf") format("opentype");
+    src: url("fonts/Sneak-Regular.otf") format("opentype");
 }
 
 * { 
@@ -22,12 +22,22 @@ body {
 	margin-top:20vh;
 }
 
-.front img{
+.glimmers {
+  z-index: 100;
+  position: relative;
+  margin:0 auto;
+}
+
+.glimmers img{
+  width:5vw;
+}
+
+.rings img{
 	width:40vw;
 	margin:0 auto;
 }
 
-.front img:hover {
+.rings img:hover {
 	cursor: pointer;
 }
 
@@ -50,7 +60,7 @@ body {
 	cursor: pointer;
 }
 
-.border {
+.gradient {
   position: absolute;
   top: 0;
   left: 0;
@@ -70,6 +80,23 @@ body {
   padding;right: 35px;
   padding;bottom: 35px;
   padding;top: 35px;
+}
+
+.gradient2 {
+  margin: 0 auto;
+  height: 280px;
+  width:220px;
+  border-radius: 50%;
+}
+
+.front img {
+    margin: 0 auto;
+    top:-305px;
+    position: relative;
+}
+
+.front img:hover {
+  cursor: pointer;
 }
 
 
