@@ -1,9 +1,9 @@
 
 
 var colors = new Array(
-  [4,229,184],
-  [50,95,225],
-  [217,50,255],
+  [34,255,239],
+  [206,99,45],
+  [239,13,255],
   [255,144,25]);
 
 
@@ -39,7 +39,7 @@ var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
 var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
 var color2 = "rgb("+r2+","+g2+","+b2+")";
 
- $('.gradient2').css({
+ $('#ring1').css({
    background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
     background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
   

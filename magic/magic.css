@@ -1,13 +1,35 @@
 body {
   display: block;
-  background-color: white;
+  background-color: black;
+  margin:0;
+  padding: 0;
 }
 
-#gradient {
-  margin: 80px;
-  height: 700px;
+.gradient2 {
+  margin: 50px;
+  height: 180px;
+  width:140px;
   border-radius: 50%;
-  border-width: 10px;
-  border-color: black;
-  border-style: solid;
+}
+#ring1 {
+  margin: 50px;
+  height: 180px;
+  width:140px;
+  border-radius: 50%;
+}
+.gradient3 {
+  margin: 50px;
+  height: 180px;
+  width:140px;
+  border-radius: 50%;
+}
+
+.top {
+	display: flex;
+	position: relative;
+}
+
+.bottom {
+	display: flex;	
+	position: relative;
 }
