@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Sneak-Regular;
-    src: url("fonts/Sneak-Regular.otf") format("opentype");
+    font-family: WindsorMTStd;
+    src: url("fonts/WindsorMTStd.otf") format("opentype");
 }
 
 * { 
@@ -16,13 +16,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Sneak-Regular;
+  font-family: WindsorMTStd;
 }
 
 .blackbox p{
   color:#d3d4e3;
-  margin-top: 9px;
-  margin-left: 12px;
+  bottom: 11px;
+  right: 12px;
+  position: absolute;
 }
 
 .front {
@@ -78,9 +79,8 @@ body {
 }
 
 .back p{
-	font-family: sans-serif;
   color:black;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
   width:280px;
   margin:0 auto;
