@@ -13,6 +13,17 @@ body {
   /*cursor: url(images/glimmer.png), auto;*/
 }
 
+.mobileintro {
+  display: none;
+  color:#d3d4e3;
+  top: 17px;
+  left: 17px;
+  position: absolute;
+  font-size: 1.5em;
+  text-align: left;
+  width:300px;
+}
+
 .intro p{
   color:#d3d4e3;
   top: 17px;
@@ -128,11 +139,7 @@ button:hover {
 }
 
 .intro p{
-  top: 10px;
-  left: 10px;
-  font-size: .9em;
-  text-align: left;
-  width:200px;
+display: none;
 }
 
 button{
@@ -170,6 +177,16 @@ button{
     top: 87%;
   -ms-transform: translate(-50%, -87%);
   transform: translate(-50%, -87%);
+}
+
+.mobileintro {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: .9em;
+  text-align: left;
+  width:200px;
+  display: inline;
 }
 
 }
