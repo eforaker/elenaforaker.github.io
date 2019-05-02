@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
-    <title>Mood Temp</title>
+    <title>Mood Ring</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="style.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/glimmer.png" type="image/x-icon">
@@ -23,16 +23,26 @@
     <!-- Your own javascript file -->
     <script src="script.js"></script>
     <script src="../magic.js"></script>
+    <script src="../magic2.js"></script>
+    <script src="toggle.js"></script>
 
 </head>
 <body>
 	<div class="blackbox">
-     <p>Click Mood Ring to Reveal</p>
-    </div>
+        <div class="intro">
+            <p>Click the oval when the color suits your mood.</p>
+        </div>    
+
+        <button onclick="myFunction()">Key</button>
+        <div id="key">
+            <img src="images/key.png">
+        </div>
+
 
  <div id="card">  
 
     <div class="front"> 
+
 
 <div class="gradient2"></div>
 <img src="images/frame2big.png">
@@ -40,19 +50,12 @@
     </div> 
 
 	<div class="back">
-			
-<div class="ringback">
-    <p>It is 
-        <br/>
-        54°F. in
-        <br/> Keene, NH</p>
-</div>
+		<div class="gradient2"></div>
 <img src="images/backframebig.png">
+		</div>
 
-	</div>
 </div>
-
-
+</div>
 
 
 

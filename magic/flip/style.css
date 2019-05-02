@@ -9,21 +9,18 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(to bottom right, #22ffef, #7c40ff, #ced32d, #ef0dff);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: WindsorMTStd;
+  /*cursor: url(images/glimmer.png), auto;*/
 }
 
-.blackbox p{
+.intro p{
   color:#d3d4e3;
-  bottom: 11px;
-  right: 12px;
+  top: 17px;
+  left: 17px;
   position: absolute;
+  font-size: 1.5em;
+  text-align: left;
+  width:300px;
 }
 
 .front {
@@ -41,16 +38,16 @@ body {
 }
 
 .gradient2 {
-  height:68vh;
+  height:66vh;
   width:50vh;
   border-radius: 50%;
   position: fixed;
-   text-align: center;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .front img {
@@ -78,28 +75,6 @@ body {
     top: 46vh;
 }
 
-.back p{
-  color:black;
-  font-size: 3em;
-  text-align: center;
-  width:280px;
-  margin:0 auto;
-  padding-top:100px;
-}
-
-.ringback {
-  height:68vh;
-  width:50vh;
-  border-radius: 50%;
-  background-color: #d3d4e3;
-  position: fixed;
-  text-align: center;
-  margin: 0;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
 .back img {
   height:80vh;
   position: fixed;
@@ -113,5 +88,95 @@ body {
 .back img:hover {
   cursor: pointer;
 }
+
+#key {
+  position: absolute;
+  bottom: 53px;
+  right: 10px;
+  display: none;
+}
+
+#key img{
+  width: 360px;
+}
+
+button{
+  background-color: black;
+  color:#d3d4e3;
+  bottom: 17px;
+  right: 17px;
+  position: absolute;
+  font-size: 1.5em;
+  font-family: WindsorMTStd;
+  border: none;
+}
+
+button:focus {outline:0;}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+
+.blackbox {
+  padding;left: 15px;
+  padding;right: 15px;
+  padding;bottom: 15px;
+  padding;top: 15px;
+}
+
+.intro p{
+  top: 10px;
+  left: 10px;
+  font-size: 1em;
+  text-align: left;
+}
+
+button{
+  bottom: 10px;
+  right: 10px;
+  font-size: 1em;
+}
+
+#key {
+  bottom: 30px;
+  right: 7px;
+}
+
+#key img{
+  width: 200px;
+}
+
+.gradient2 {
+  height:46vh;
+  width:35vh;
+    top: 76%;
+  -ms-transform: translate(-50%, -76%);
+  transform: translate(-50%, -76%);
+}
+
+.front img {
+  height:55vh;
+  top: 72%;
+  -ms-transform: translate(-50%, -72%);
+  transform: translate(-50%, -72%);
+}
+
+.back img {
+  height:55vh;
+    top: 72%;
+  -ms-transform: translate(-50%, -72%);
+  transform: translate(-50%, -72%);
+}
+
+}
+
+
+
+
+
+
 
 
