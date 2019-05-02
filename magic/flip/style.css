@@ -153,23 +153,23 @@ button{
 .gradient2 {
   height:29vh;
   width:22vh;
-    top: 76%;
-  -ms-transform: translate(-50%, -76%);
-  transform: translate(-50%, -76%);
+    top: 95%;
+  -ms-transform: translate(-50%, -95%);
+  transform: translate(-50%, -95%);
 }
 
 .front img {
   height:35vh;
-  top: 72%;
-  -ms-transform: translate(-50%, -72%);
-  transform: translate(-50%, -72%);
+  top: 87%;
+  -ms-transform: translate(-50%, -87%);
+  transform: translate(-50%, -87%);
 }
 
 .back img {
   height:35vh;
-    top: 72%;
-  -ms-transform: translate(-50%, -72%);
-  transform: translate(-50%, -72%);
+    top: 87%;
+  -ms-transform: translate(-50%, -87%);
+  transform: translate(-50%, -87%);
 }
 
 }
