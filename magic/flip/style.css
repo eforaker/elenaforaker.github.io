@@ -130,14 +130,15 @@ button:hover {
 .intro p{
   top: 10px;
   left: 10px;
-  font-size: 1em;
+  font-size: .9em;
   text-align: left;
+  width:200px;
 }
 
 button{
   bottom: 10px;
   right: 10px;
-  font-size: 1em;
+  font-size: .9em;
 }
 
 #key {
