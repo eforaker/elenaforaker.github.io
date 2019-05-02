@@ -150,33 +150,33 @@ button{
 
 #key {
   bottom: 30px;
-  right: 7px;
+  right: 2.6vw;
 }
 
 #key img{
-  width: 330px;
+  width: 86vw;
 }
 
 .gradient2 {
   height:29vh;
   width:22vh;
-    top: 95%;
-  -ms-transform: translate(-50%, -95%);
-  transform: translate(-50%, -95%);
+    top:110%;
+  -ms-transform: translate(-50%, -110%);
+  transform: translate(-50%, -110%);
 }
 
 .front img {
   height:35vh;
-  top: 87%;
-  -ms-transform: translate(-50%, -87%);
-  transform: translate(-50%, -87%);
+  top: 100%;
+  -ms-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%);
 }
 
 .back img {
   height:35vh;
-    top: 87%;
-  -ms-transform: translate(-50%, -87%);
-  transform: translate(-50%, -87%);
+  top: 100%;
+  -ms-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%);
 }
 
 .mobileintro {
