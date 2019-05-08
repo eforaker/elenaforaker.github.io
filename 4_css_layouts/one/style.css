@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	display: block;
+	margin: 100px;
+}
+
+.board {
+	width:900px;
+	
+}
+
+.red {
+	width:100px;
+	height: 100px;
+	background-color: red;
+	float:left;
+}
+
+.black {
+	width:100px;
+	height: 100px;
+	background-color: black;
+	float:left;
+}
