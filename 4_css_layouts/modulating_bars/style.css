@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	display: block;
+}
+
+div {
+    float: left;
+    background-color: blue;
+    height: 500px;
+    width:100px;
+}
+
+.bar1 {
+  position: relative;
+  top:30px;
+  left:30px;
+}
+
+.bar2 {
+  position: relative;
+  top:130px;
+  left:60px;
+}
+
+.bar3 {
+  position: relative;
+  top:290px;
+  left:90px;
+}
+
+.bar4 {
+  position: relative;
+  top:10px;
+  left:120px;
+}
+
+.bar5 {
+  position: relative;
+  top:220px;
+  left:150px;
+}
+
+.bar6 {
+  position: relative;
+  top:360px;
+  left:180px;
+}
+
+.bar7 {
+  position: relative;
+  top:290px;
+  left:210px;
+}
+
+.bar8 {
+  position: relative;
+  top:60px;
+  left:240px;
+}
+
+.bar9 {
+  position: relative;
+  top:290px;
+  left:270px;
+}
+
+.bar10 {
+  position: relative;
+  top:460px;
+  left:300px;
+}
+
+.bar11 {
+  position: relative;
+  top:100px;
+  left:330px;
+}
+
+.bar12 {
+  position: relative;
+  top:30px;
+  left:360px;
+}
+
+
+
+
+
+
