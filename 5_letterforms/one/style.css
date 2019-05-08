@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	display: block;
+	margin: 150px;
+}
+
+.leftleg{
+	position: absolute;
+}
+
+.bar {
+	position: absolute;
+	left:200px;
+	top:400px;
+}
+
+.barblock {
+	height: 75px;
+	width: 550px;
+	background-color: blue;
+	display: inline-block;
+}
+
+.rightleg {
+	position: absolute;
+	left:700px;
+}
+
+.block {
+	height: 100px;
+	width: 75px;
+	background-color: blue;
+	margin-left: 25px;
+}
+
+.trapezoid1 {
+	border-bottom: 50px solid blue;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+	transform: rotate(180deg);
+}
+
+.trapezoid2 {
+	border-bottom: 50px solid blue;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
