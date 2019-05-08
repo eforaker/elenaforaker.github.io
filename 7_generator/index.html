@@ -1,34 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-    	<meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta charset="utf-8"> 
-        <link rel="shortcut icon" href="images/herb.png" type="image/x-icon">
-       	<meta name="viewport" content="width=device-width, initial-scale=1">
-       	<link rel="styles" type="text/css" href="style.css">
-        <title>7 Principles</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sentence Generator_Step2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
     </head>
-        <body>
+    <body>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
 
-        	<p>
-<span id=“noun1”></span> 
-is <span id=“adj”></span>
-er than <span id="noun2"></span>
-</p>
+		/*  =========================================================================
+		    1. make an array of words
+		    ==========================================================================   */
+	    	
+			var noun1 = [ "strawberry", "blueberry", "watermelon", "peach", "banana"];
+			var noun2 = [ "bigg", "sweet", "small", "bett"];
+			var adj = [ "an apple", "lettuce", "pizza" ];
+			
+			// Array: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+		
 
-<script>
-var x = "red”;
-var y = "blue”;
-var z = "yellow”;
-document.getElementById("noun1”).innerHTML = x;
-document.getElementById("noun2”).innerHTML = y;
-document.getElementById("adj”).innerHTML = z;
-
-</script>
-
-
-;
+	    /*  =========================================================================
+		    2. take each array and pick a word at random 
+		    ==========================================================================   */
+	    
+			function pickRandomWord(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
 
 
-    </body>
+			// Math.floor: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+		    // Math.random: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+		    // Array.length: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+
+
+	    /*  =========================================================================
+		    3. print a random word from the array on the browser
+		    ==========================================================================   */
+
+			function printRandomWord() {					   
+			
+				// call the function from step 2 for each list
+				var list_noun1 = pickRandomWord(noun1);
+				var list_noun2  = pickRandomWord(noun2);
+				var list_adj = pickRandomWord(adj);
+
+				// print the selected word from list on the browser
+					$('.list1').html(list_noun1);
+					$('.list2').html(list_noun2);
+					$('.list3').html(list_adj);
+				// .html(): http://api.jquery.com/html/
+
+			}
+	
+			// call the function when the html page is initially loaded
+			printRandomWord();
+
+			// call the function when a user click a button 
+			$('button').click(function(){		
+				printRandomWord();
+			});
+
+			//.click(): https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click
+
+		});
+	    </script>
+		<p>
+			A <span class="list1"></span> is <span class="list2"></span>er than <span class="list3"></span>.
+		</p>
+		<button>Generate!</button>
+		<style>
+			body {
+				font-size: 4rem;
+			}
+			.list1 {
+				color:blue;
+			}
+			.list2 {
+				color:red;
+			}
+			.list3 {
+				color:green;
+			}
+		</style>
+	</body>	
 </html>

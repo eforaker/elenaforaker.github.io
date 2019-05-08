@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	display: block;
+	margin: 150px;
+}
+
+.leftleg{
+	position: relative;
+}
+
+.rightleg {
+	background-color: blue;
+	width: 400px;
+	height: 400px;
+	top:-300px;
+	position: relative;
+}
+
+.block {
+	height: 100px;
+	width: 105px;
+	background-color: blue;
+}
+
+.circle {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  border-radius: 50%;
+  top:-550px;
+  left:50px;
+  position: relative;
+ }
+
+ .circle {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  border-radius: 50%;
+  top:-550px;
+  left:50px;
+  position: relative;
+ }
