@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	display: block;
+	margin: 20px;
+}
+
+.header {
+	height: 100px;
+	background-color: green;
+	text-align: center;
+  	padding: 20px;
+}
+
+.columns {
+	display: inline-block;
+  background-color: red;
+  width: 30vw;
+  height: 700px;
+  margin: 20px;
+ }
+
+
+.footer {
+	text-align: center;
+  	padding: 20px;
+	height: 100px;
+	background-color: blue;
+}
