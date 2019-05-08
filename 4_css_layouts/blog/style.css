@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	display: block;
+}
+
+.header {
+	height: 70px;
+	background-color: blue;
+  	margin-bottom: 40px;
+  	margin-left: 20px;
+  	margin-right: 20px;
+  	margin-top: 20px;
+}
+
+.main {
+	display: inline-block;
+  background-color: blue;
+  width: 600px;
+  height: 500px;
+  margin-left: 20px;
+ }
+
+ .side {
+  position: relative;
+  display: inline-block;
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  top:-300px;
+ }
+
+ .bottom {
+  background-color: blue;
+  width: 600px;
+  height: 70px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+ }
